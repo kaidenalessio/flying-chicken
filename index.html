@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Metas -->
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Flying Chicken</title>
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#gameContainer {
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			position: fixed;
+			overflow: hidden;
+		}
+		#gameCanvas {
+			width: 100%;
+			height: 100%;
+			background-color: skyblue;
+		}
+	</style>
+</head>
+<body id="gameContainer">
+	<!-- Resources -->
+	<!-- <img id="logoImage" src="src/img/logo.png" style="display: none;">
+	<img id="shoeImage" src="src/img/shoe.png" style="display: none;">
+	<img id="shoeLargeImage" src="src/img/shoe-large.png" style="display: none;">
+	<img id="bgPatternImage" src="src/img/bg-pattern.png" style="display: none;">
+	<audio id="flyAudio"><source src="src/snd/fly.mp3" type="audio/mpeg"></audio>
+	<audio id="bgmAudio"><source src="src/snd/bgm.mp3" type="audio/mpeg"></audio>
+	<audio id="crashAudio"><source src="src/snd/crash.mp3" type="audio/mpeg"></audio> -->
+	<!-- Game Canvas -->
+	<canvas id="gameCanvas"></canvas>
+	<!-- Scripts -->
+	<script type="text/javascript" src="src/engine.js"></script>
+	<script type="text/javascript" src="src/app.js"></script>
+</body>
+</html>
